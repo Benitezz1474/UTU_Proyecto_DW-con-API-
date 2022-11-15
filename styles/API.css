@@ -1,0 +1,78 @@
+
+section{
+    padding: 20px;
+}
+
+.card{
+    padding: 20px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card img{
+    
+    width: 100%;
+}
+
+
+
+.card img{
+
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+} 
+
+
+
+.pagination{
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(72, 70, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pagination button{
+   width: 30%;
+   padding: 20px 0;
+}
+
+
+
+@media screen and (min-width: 900px){
+
+    
+        section{
+            padding: 30px;
+        }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 500px));
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    
+}
+
+@media screen and (width >= 1000px) {
+    
+    #container{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(300px, 700px));
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    section {
+        padding: 50px;
+    }
+    
+}
