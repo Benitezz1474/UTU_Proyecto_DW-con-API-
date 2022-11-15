@@ -1,17 +1,17 @@
 Pautas para la entrega:
 
-1 - Individual
-2 - Bootstrap
+1 Individual,
+2 Bootstrap
 ---------------------
 Tecnologías:
 
-1 - HTML
-2 - CSS 
-3 - Javascript
+HTML,
+CSS ,
+Javascript
 --------------------
 APIs Rest:
 
-1- Marvel
+Marvel
 -----------------
 Entrega:
 
